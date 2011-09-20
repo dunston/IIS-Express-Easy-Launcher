@@ -186,15 +186,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:IIS Express Launcher"
-        "ProductCode" = "8:{6DD76EF3-D63E-442D-BFE4-69309BB3A559}"
-        "PackageCode" = "8:{03EC5EC8-E082-4D5E-B507-07E8D5F66075}"
+        "ProductCode" = "8:{B9AE4481-93C7-4F81-8FC2-9647DC6D865A}"
+        "PackageCode" = "8:{71D33B04-1666-4F0C-8C0F-BDCC38DEE497}"
         "UpgradeCode" = "8:{2FDFE88C-8DB9-4776-B2B1-8B58B79EAC2B}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.1.0"
+        "ProductVersion" = "8:0.3.0"
         "Manufacturer" = "8:HackTheDot"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -794,7 +794,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_2746E5CB054B4A94A0BEE8813DA6B943"
             {
-            "SourcePath" = "8:..\\LaunchIISExpress\\obj\\x86\\Debug\\LaunchIISExpress.exe"
+            "SourcePath" = "8:..\\LaunchIISExpress\\obj\\x86\\Release\\LaunchIISExpress.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_76AA497914B9481FB750D8F1D9DDFFD0"

@@ -69,9 +69,6 @@
                             throw new Exception("E: 102 - Could not find port");
                         string host = information[2];
 
-                        if (string.IsNullOrEmpty(host))
-                            throw new Exception("E: 103 - Could not find host");
-
                         if (port <= 1024 || host != "localhost")
                         {
                             WindowsPrincipal pricipal = new WindowsPrincipal(WindowsIdentity.GetCurrent());
@@ -81,14 +78,14 @@
                             {
                                 if (port <= 1024)
                                 {
-                                    Console.WriteLine("Without administrative rights, you cant open port under 1024, please select another!");
+                                    Console.WriteLine("Without administrative rights, you cant open port under 1025, please select another!");
                                     string newPort = Console.ReadLine();
 
                                     if (!int.TryParse(newPort.Trim(), out port) || port <= 1024)
                                     {
                                         while (true)
                                         {
-                                            Console.Write("Error in parsing, or port is lower then 1024, choose another");
+                                            Console.WriteLine("Error in parsing, or port is lower then 1024, choose another");
                                             newPort = Console.ReadLine();
 
                                             if (int.TryParse(newPort.Trim(), out port) && port > 1024)
