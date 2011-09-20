@@ -28,7 +28,6 @@
         /// <exception cref="Exception">E: 103 - Could not find host</exception>
         static void Main(string[] args)
         {
-            args[0] = @"D:\Solutions\RES 948\resound.com\src\GNReSound.Website";
             Console.Title = "IIS Express easy launcher";
             if (args.Length > 0)
             {
