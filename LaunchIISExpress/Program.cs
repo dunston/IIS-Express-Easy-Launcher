@@ -203,7 +203,7 @@
 
         private static void process_OutputDataReceived(object sender, DataReceivedEventArgs e)
         {
-            Console.WriteLine(e.Data);
+            Console.WriteLine("{0}: {1}", DateTime.Now.ToString("HH:mm:ss"), e.Data);
         }
 
         #endregion Methods
